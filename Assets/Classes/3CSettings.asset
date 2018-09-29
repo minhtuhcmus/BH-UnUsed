@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f8ef3d9f2e7ed846904826f653f9e7f, type: 3}
+  m_Name: 3CSettings
+  m_EditorClassIdentifier: 
+  screenWidth: 750
+  screenHeight: 1334
+  maxDistance: 600
+  maxForce: 1000
+  distancePerPart: 75
+  parts:
+  - 12.5
+  - 25
+  - 37.5
+  - 50
+  - 62.5
+  - 75
+  - 87.5
+  - 100
+  reachFullForceTime: 5
+  minimumDistancePercent: 0.2
+  firstPartPercentPlayerForce: 0.3
+  timePercentFirstPart: 0.2
+  secondPartPercentPlayerForce: 0.7
+  timePercentSecondPart: 0.8
+  timeReach0: 3
